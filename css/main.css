@@ -1550,7 +1550,7 @@ header .header-logo a {
 .home-content-tablecell h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 2.2rem;
-  color: white;
+  color: rgba(242, 242, 242, 0.5);
   text-transform: uppercase;
   letter-spacing: .3rem;
   margin: 0 0 .9rem 0;
@@ -1792,7 +1792,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #b6b6b6;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -2272,7 +2272,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: rgba(242, 242, 242, 0.5);
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -2508,7 +2508,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #contact {
   background-color: #111111;
-  background-image: url(../images/contact-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
