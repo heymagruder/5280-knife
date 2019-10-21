@@ -1796,14 +1796,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
-}
-#about h3::before {
-  display: block;
-  content: "";
-  width: 3px;
-  height: 9.6rem;
-  background-color: rgba(149, 149, 149, 0.7);
-  margin: 0 auto 2.4rem;
+  padding-top: 60px;
 }
 #about .lead {
   font-family: "librebaskerville-bold", serif;
