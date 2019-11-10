@@ -1335,7 +1335,7 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 #menu-nav-wrap {
   background: #0C0C0C;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 1.5rem;
   line-height: 1.6;
   padding: 3.6rem 3rem;
@@ -1367,9 +1367,10 @@ header .header-logo a {
 #menu-nav-wrap h3 {
   color: white;
   font-family: "montserrat-regular", sans-serif;
-  font-size: 2rem;
+  font-size: 1.9rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
+  margin-top:40px;
 }
 #menu-nav-wrap .nav-list {
   font-family: "montserrat-regular", sans-serif;
@@ -1387,7 +1388,7 @@ header .header-logo a {
   border-top: 1px dotted rgba(255, 255, 255, 0.03);
 }
 #menu-nav-wrap .nav-list li a {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.5);
   display: block;
 }
 #menu-nav-wrap .nav-list li a:hover, 
@@ -1896,13 +1897,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #services .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: rgba(242, 242, 242, 0.7);
 }
 #services .section-intro h1 {
   color: #FFFFFF;
 }
 #services .section-intro .lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: rgba(242, 242, 242, 0.7);
 }
 #services .services-content {
   text-align: center;
