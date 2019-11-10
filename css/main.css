@@ -1509,7 +1509,7 @@ header .header-logo a {
 /*    background-size: 51px 24px;*/
   }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 580px) {
   #header-menu-trigger .header-menu-text {
     display: none;
   }
