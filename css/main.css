@@ -1231,8 +1231,8 @@ header .row {
  * ------------------------------------------------------------------- */
 header .header-logo {
   position: absolute;
-  left: 27px;
-  top: 25px;
+  left: 1px;
+  top: 9px;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
@@ -1245,8 +1245,8 @@ header .header-logo a {
   padding: 0;
   outline: 0;
   border: none;
-  width: 190px;
-  height: 64px;
+  width: 420px;
+  height: 96px;
   background: url("../images/logo.svg") no-repeat center;
 /*  background-size: 150px 51px;*/
   font: 0/0 a;
