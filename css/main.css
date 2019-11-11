@@ -2827,8 +2827,8 @@ footer .row {
 footer h4.h05 {
   color: #FFFFFF;
   position: relative;
-  padding-bottom: 4.2rem;
-  margin-bottom: 3.6rem;
+  padding-bottom: 3.0rem;
+  margin-bottom: 3.0rem;
 }
 footer h4.h05::after {
   display: block;
