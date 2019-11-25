@@ -1146,7 +1146,7 @@ input::-moz-focus-inner {
   display: inline-block;
   height: 1px;
   width: 200px;
-  background-color: rgba(242, 242, 242, 0.1);
+  background-color: rgba(242, 242, 242, 0.3);
   text-align: center;
 }
 
@@ -1566,7 +1566,7 @@ header .header-logo a {
 .home-content-tablecell h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 2.2rem;
-  color: rgba(242, 242, 242, 0.5);
+  color: rgba(242, 242, 242, 0.8);
   text-transform: uppercase;
   letter-spacing: .3rem;
   margin: 0 0 .9rem 0;
@@ -1731,6 +1731,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     top: 24px;
     right: 10px;
   }
+    #home {
+      background-image: none;
+    }
+
+
 }
 @media only screen and (max-width: 600px) {
   #home {
@@ -2195,56 +2200,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
-}
-
-/* ------------------------------------------------------------------- 
- * Light Gallery Overrides - (_layout.css) 
- * ------------------------------------------------------------------- */
-.lg-sub-html {
-  padding: 12px 20% 15px;
-}
-.lg-sub-html a, .lg-sub-html a:visited {
-  color: #f9a828;
-}
-.lg-sub-html a:hover, .lg-sub-html a:focus {
-  color: #FFFFFF;
-}
-@media only screen and (max-width: 1024px) {
-  .lg-sub-html {
-    padding: 12px 15% 15px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .lg-sub-html {
-    padding: 12px 40px 15px;
-  }
-}
-
-.lg-sub-html h4 {
-  color: #FFFFFF;
-  font-family: "montserrat-regular", sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.333;
-}
-
-.lg-sub-html p {
-  font-family: "montserrat-regular", sans-serif;
-  font-size: 1.3rem;
-  line-height: 2.4rem;
-  margin: .6rem 0 0;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
-  border-color: #f9a828;
-}
-
-.lg-progress-bar .lg-progress {
-  background-color: #FFFFFF;
-}
-
-#lg-counter {
-  font-family: "montserrat-regular", sans-serif;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2832,7 +2787,6 @@ footer h4.h05 {
 }
 footer h4.h05::after {
   display: block;
-  background: url("../images/icon.svg") no-repeat center;
   content: "";
   width: 100px;
   height: 1px;
@@ -2840,12 +2794,6 @@ footer h4.h05::after {
   position: absolute;
   bottom: 0;
   left: 0;
-}
-
- .btm-logo {
-  background: url("../images/icon.svg") no-repeat center;
-  width: 60px;
-  height: 58px;
 }
 
 /* footer main
