@@ -2609,6 +2609,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .contact-content {
     max-width: 480px;
   }
+  .schedule-code{
+
+  }
 }
 @media only screen and (max-width: 400px) {
   .contact-info {
