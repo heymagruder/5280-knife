@@ -2525,7 +2525,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .contact-info .cinfo p {
   font-size: 2rem;
 }
-
+.schedule-code {
+  padding-bottom: 80px;
+}
 /* --------------------------------------------------------------- 
  * loader animation - (_layout.scss)
  * --------------------------------------------------------------- */
