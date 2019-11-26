@@ -1295,8 +1295,8 @@ header .header-logo a {
 #header-menu-trigger {
   display: block;
   position: fixed;
-  right: 32px;
-  top: 30px;
+  right: 15px;
+  top: 15px;
   height: 42px;
   width: 42px;
   line-height: 42px;
